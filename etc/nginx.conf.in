@@ -4,7 +4,7 @@ upstream pypicache_backend {
 
 server {
     listen 80;
-    server_name  pypi.fifteen5.com;
+    server_name  localhost;
 #    access_log ${buildout:directory}/var/log/nginx.access.log;
 #    error_log ${buildout:directory}/var/log/nginx.error.log;
     client_max_body_size 11m;
